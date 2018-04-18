@@ -1,0 +1,197 @@
+/*头部颜色*/
+#topMenu{
+    background: #1475e2;
+}
+/*整体背景色*/
+#page-wrapper{
+    background: #e9f0fa;
+}
+.top-navigation .navbar{
+    border-bottom: 0;
+}
+
+/*主页内容框颜色*/
+/*.contact-box .contact-dt,.ibox-title,.tabs-container .data-box*/
+/*,.mation-box, .vertical-timeline-content,.txbg-white,.col-sm-9 .txbg-white{*/
+    /*background: #353b47;color: #fff;*/
+/*}*/
+.ibox-title,.contact-box .contact-dt,.tabs-container .data-box,.contact-box2 .contact-dt,.txbg-white .tx-bdt{
+    background: #4d9cf3!important;color: #fff;
+}
+.ibox-content,.grmsg-top,.bgc-oblack,.contact-box2{
+    background: #fff;
+}
+.ibox-content,.grmsg-top,.bgc-oblack,.contact-box2,.vertical-timeline-block .vertical-timeline-content{
+    border: 1px solid #cae1f3;
+}
+
+.ibox,.grmsg-bottom{
+    border: 0;
+}
+.user-msgb-number, .user-msgb-name{
+    color: #424b50!important;
+}
+.grmsg-bottom{
+    height: 140px;
+    background: transparent;
+    margin-top: 18px;
+}
+
+.contact-box .contact-dt{
+    border-bottom: 1px solid #cae1f3;
+}
+.data-box .active{
+    background: #2a80e2;color: #fff;
+}
+
+.top-navigation .navbar-nav ul.dropdown-menu, .data-box li a{
+    color: #fff;
+}
+
+.news-cbox a:hover{
+    color: #2fa0ec;
+}
+.news-cbox a{
+    color: #666;
+}
+.contact-box2 .contact-dt h3{
+    color: #fff;font-weight: normal;
+}
+
+/*头部文字*/
+#navbar .navbar-nav>li>a{
+    color: #fff;
+}
+#navbar .navbar-nav>li>a:focus, #navbar .navbar-nav>li>a:hover{
+    background-color: #4490e6!important;
+    color: #fff;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    color: #fff!important;
+}
+.top-navigation .navbar-nav ul.dropdown-menu{
+    background: #1475e2!important;border: 0;
+}
+.top-navigation .navbar-nav .open .dropdown-menu>li>a:hover{
+    color: #fff;
+    background: #4490e6!important;
+}
+.top-navigation .dropdown-menu>li>a{
+    color: #fff;
+}
+/*.form-control, .single-line{*/
+    /*border: 1px solid #505765;*/
+    /*color: #fff;*/
+/*}*/
+/*查看资料*/
+
+/*.vertical-timeline-block .vertical-timeline-content{*/
+    /*border-top: 1px solid #2f3541;*/
+/*}*/
+
+body{
+    background: #e9f0fa;
+}
+.footer{
+    background: #fafafa!important;
+    border: 0!important;
+    /*color: #fff!important;*/
+}
+
+.safety-box .txt .text-no{
+    color: #fa9778!important;
+}
+.safety-btn .btn-danger,.safety-list .btn-danger{
+    background: #fa9778;
+    border-color: #fa9778;
+}
+
+/*.linear-gradient .bootstrap-table{*/
+    /*color: #fff!important;*/
+/*}*/
+/*.laydate-icon, .laydate-icon-default, .laydate-icon-danlan, .laydate-icon-dahong, .laydate-icon-molv{*/
+/*background: #2f3541!important;border: 0!important;*/
+/*color: #fff;*/
+/*}*/
+/*.table>tbody>tr>td{*/
+    /*border-top:1px solid #505765;*/
+/*}*/
+
+/*.fixed-table-container tbody td{*/
+    /*border-left: 1px solid #505765!important;*/
+/*}*/
+/*.fixed-table-container tbody td:first-child{*/
+    /*border-left: 0!important;*/
+/*}*/
+.fixed-table-container tbody tr:first-child td{
+    /*border-top: 1px solid red!important;*/
+}
+.alert-info{
+    background: #01c0c8;
+    border-color: #01c0c8;
+    color: #fff;
+}
+.node_name span{
+    border: 0!important;
+}
+.ztree li a{
+    color: #999!important;
+}
+.Topology-table td{
+    color: #666;
+}
+
+.fixed-table-pagination .pagination a,.pagination-detail .btn-group button{
+    color: #666;
+}
+/*.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th{*/
+    /*background: #353b47;*/
+    /*border:0;*/
+/*}*/
+/*.fixed-table-body table{*/
+    /*border: 0;*/
+/*}*/
+/*.fixed-table-body table tbody tr td:last-child{*/
+    /*border-right: 0;*/
+/*}*/
+/*.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{*/
+    /*border: 1px solid #505765;*/
+/*}*/
+.l-tc .btn-o-black{
+    border-radius: 4px;
+}
+.grey-bg .font-gary{
+    color: #999;
+}
+
+.collapse-link span:hover{
+    color:#fff
+}
+
+.shop-car-box .btn-white{
+    color: #666;
+}
+.shop-car-box .btn-white:hover{
+    color: #666;
+}
+.form-control{
+    color: #999;
+}
+.fixed-table-toolbar .columns label{
+    color: #333;
+}
+.czjl{
+    color: #fff;
+}
+
+.ibox-content .no-margins i{
+    color: #666;
+}
+
+.ibox-tools a{
+    color: #e8e8e8;
+}
+
+.top-nav .navbar-vertical-top .navbar-header a{
+    color: #fff;
+}

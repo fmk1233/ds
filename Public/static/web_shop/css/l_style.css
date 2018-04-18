@@ -1,0 +1,214 @@
+.fl{float: left}
+.fr{float: right}
+.clx{clear: both}
+#allSortOuterbox .hd_allsort_out_box_new .Menu_list .Menu_name{
+    line-height: 42px;
+}
+#allSortOuterbox .hd_allsort_out_box_new{
+    height: 440px;padding: 10px 0;
+}
+#allSortOuterbox .menv_Detail .cat_pannel .hd_sort_list{
+    border-right: 0;
+}
+.index_style{position: relative;}
+.msg-right-box{
+    width: 180px;height: 400px;
+    position: absolute;right: 0;top:73px;z-index: 1000;
+}
+#allSortOuterbox .menv_Detail{
+    width: 770px;height: 439px;
+}
+#allSortOuterbox .menv_Detail .cat_pannel .hd_sort_list{
+    width: 700px;
+}
+#allSortOuterbox .menv_Detail .cat_pannel .hd_sort_list dd{
+    width: 600px;
+}
+#allSortOuterbox .menv_Detail .cat_pannel .hd_sort_list dt{
+    margin-right: 20px;
+}
+.msg-right-box .login-box{
+    height: 145px;
+    background-color:rgba(255,255,255,.8);
+}
+.msg-right-box .login-box .top-box .tx-box{
+    width: 56px;height: 56px;border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.msg-right-box .login-box .top-box .text-box h1{
+    font-size: 18px;font-weight: normal;line-height: 24px;color: #333;
+}
+.msg-right-box .login-box .top-box .text-box h2{
+    font-size: 14px;font-weight: normal;line-height: 20px;color: #666;
+}
+.msg-right-box .login-box .top-box{
+    margin-left: 20px;padding-top: 25px;
+    margin-right: 20px;
+    /*border-bottom: 1px dashed #d9d9d9;*/
+    padding-bottom: 10px;
+}
+.msg-right-box .login-box .top-box .text-box{
+    margin-top: 5px;margin-left: 10px;
+}
+.msg-right-box .login-box .bottom-box{
+    text-align: center;
+    /*margin-top: 5px;*/
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #d9d9d9;
+}
+.msg-right-box .login-box .bottom-box button{
+    background-color: transparent;border: 1px solid #ff8c2f;
+    color: #ff8c2f;font-size: 14px;border-radius: 4px;
+    padding: 2px 10px;
+    margin-left: 8px;margin-right: 8px;display: inline-block;
+}
+.msg-right-box .news-box{
+    background-color: rgba(255,255,255,.8);
+    /*margin-top: 5px;*/
+    height: 255px;
+}
+.msg-right-box .news-box .news-title{
+    font-size: 16px;color: #333;height: 35px;line-height: 35px;
+    padding: 0 10px;
+    /*border-bottom: 1px dashed #d9d9d9;*/
+    margin: 0 10px;padding-top: 20px;
+}
+.msg-right-box .news-box .news-title .icon-gg1{
+    color: #ff8c2f;font-size: 24px;
+    margin-right: 6px;
+}
+.msg-right-box .news-box .news-title span{
+    margin-top: -2px;
+}
+.msg-right-box .news-box .news-title h2{
+    font-size: 12px;color: #666;
+}
+.msg-right-box .news-box .news-ulbox{
+    color: #666;
+    padding-left: 14px;
+    /*margin-top: 10px;*/
+}
+.msg-right-box .news-box .news-ulbox li{
+    line-height: 24px;font-size: 12px;
+    margin: 4px 0;
+    width: 150px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.msg-right-box .news-box .news-ulbox li i{
+    width: 3px;
+    height: 3px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: -2px;
+    background-color: #666;
+}
+.Promotions_style .list .buy-box{
+    text-align: center;
+}
+.Promotions_style .list .buy_btn{
+    font-size: 16px;
+    background: url(../images/indexhead_sprite.png) -174px -225px;
+    text-align: center;
+    color: #666;
+    line-height: 29px;
+    height: 29px;
+    width: 92px;
+    display: inline-block;
+}
+.product_Sort .product_AD{
+    width: 300px;
+}
+.product_Sort .Section_info .pro_ad_slide{
+    width: 298px;
+    height: 489px;
+}
+.pro_list li{
+    width: 214px;
+    height: 234px;
+}
+.pro_list{
+    width: 900px;
+}
+.textcenter{
+    text-align: center;
+}
+.pro_list li .p_title_name{
+    height: 36px;
+}
+.product_Sort .Section_info .pro_ad_slide .hd{
+    top: 440px!important;
+}
+.Promotions_style .list li:last-child .Promotions_line{
+    border-right: 0;
+}
+.pro_list li .Numeral{
+    height: 24px;line-height: 24px;
+}
+.detail_main .main_box .time{
+    color: #ff0000;
+}
+.product_List  .price_style ul{
+    text-align: right;
+}
+.toolbar_right .Price_Info{
+    text-align: right;
+}
+.new_password .ywz_zhuce_xiaoxiaobao{
+    margin-left: 0;
+}
+.padl10{margin-left: 10px!important;}
+.user_integral_style .bd table tbody td{
+    line-height: 40px;
+}
+.shop_carts .Process,#Orders .Process{
+    height: auto;
+}
+.rgt-zcimg{
+    width: 16px; height: 16px;
+    display: block;float: left;
+    margin-top: -2px;
+}
+.product_List  .price_style  .btn .submit_btn{
+    text-align: left;
+    padding-left: 36px;
+}
+.product_List  .price_style  .btn .return_btn{
+    text-align: left;
+    padding-left: 22px;
+}
+.product_List  .price_style ul{
+    width: 160px;
+}
+.header .logo{
+    padding-top: 24px;
+}
+.recommend_shop .recommend_list .bd li a.buy_btn{
+    top: 80px;
+}
+.Navigation ul li.on{
+    background-color: transparent;
+}
+.Navigation ul li.on a{
+    color:#ff7200;
+}
+.Navigation ul li{
+    height: 43px;
+}
+.slideBox .hd .smallUl{
+    background-color: transparent;
+}
+.slideBox .hd .smallUl li{
+    width: 16px;height: 16px;
+    background-color: rgba(0,0,0,.5);
+    opacity: 1;
+}
+.slideBox .hd .smallUl li.on{
+background-color: rgba(204,0,0,1);
+opacity: 1;
+}

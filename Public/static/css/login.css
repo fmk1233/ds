@@ -1,0 +1,229 @@
+*{font-size: 14px; }
+body{ font-family: "Microsoft YaHei"; padding: 0; margin: 0;}
+ul, li{ list-style: none; margin: 0; margin: 0;}
+body{
+    width:100%;
+    height:100%;
+    background: #c84d02;
+
+}
+body:before {
+    content: "";
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../image/15.png) center 0 no-repeat;
+    background-size: cover;
+}
+.img{ width:100%;
+    height: 100%;
+    overflow:hidden;
+}
+img{
+    width:86%;
+    left: 0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /*position: absolute;*/
+}
+.img-login-box{ background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px rgba(53,21,0,0.3);
+    width:340px;
+    height: 400px;
+    position: absolute;
+    top:50%;
+    margin-top: -210px;
+    right: 14%;
+    padding: 10px 30px;
+}
+.img-login-box h2{
+    margin-top:20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom:30px;
+
+}
+.img-login-box h2 .tite-1{
+    font-family:创艺简仿宋;
+    font-size: 36px;
+    color: #fd6500;
+}
+.img-login-box h2 .tite-2{
+    font-family: 隶书;
+    font-size: 32px;
+    line-height: 45px;
+    color: #926504;
+}
+.img-login-box ul{
+    width: 100%;
+    padding: 0;
+}
+.img-login-box ul li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.login-box input{
+    width: 100%;
+
+}
+.img-login-box li.user-h input{
+    line-height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+}
+.img-login-box li.user-h .login-user{
+    background: url(../image/huiyuan.png) no-repeat 4% center;
+    background-color:#f2f2f2;
+}
+.img-login-box li.user-h .login-pwd{
+    background: url(../image/suo.png) no-repeat 4% center;
+    background-color:#f2f2f2;
+}
+input{
+    /*appearance: none;*/
+    /*-webkit-appearance: none;*/
+    vertical-align: middle;
+    border: none;
+    padding-left: 12%;
+    color: #93aabc;
+}
+label input[type="checkbox"] {
+    margin: 6px;
+    padding: inherit;
+    border: inherit;
+    background-color: inherit;
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    color: #93aabc;
+}
+
+.user-h1 input{line-height: 42px;
+    text-align: center;
+    background-color: #fd6500;
+    padding: 0;
+    color: #fff;
+    border-radius: 2px;
+}
+
+/* footer copyright */
+.loginbm {
+    width: 100%;
+    text-align: center;
+    margin:auto;
+    color: #fff;
+    font-size: 13px;
+    bottom: 30px;
+    position: fixed;
+}
+input[name="verify"]{
+    width: 234px;
+}
+/*手机版*/
+@media (max-width: 767px) {
+    *{font-size: 18px;}
+    .img-login-box{
+        width:300px;
+        height: 400px;
+        top:10%;
+        margin-top: 0px;
+        right: 4%;
+        padding:0 6%;
+    }
+    img{
+        width:100%;
+        margin: 0 auto;
+        padding: 0;
+        /*position: absolute;*/
+    }
+    input[name="verify"]{
+        width: 185px;
+    }
+    /* footer copyright */
+    label input[type="checkbox"] {
+        margin: 6px;
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+    }
+
+
+}
+/*平板*/
+@media  (min-width:768px){
+    .img .img-login-box{
+        width:360px;
+        position: absolute;
+        top:50%;
+        right: 30%;
+        margin-top: -260px;
+    }
+    img{
+        width:100%;
+        margin: 0 auto;
+        padding: 0;
+        /*position: absolute;*/
+    }
+}
+
+/*平板*/
+@media  (min-width: 992px){
+    .img .img-login-box{
+        width:360px;
+        position: absolute;
+        top:50%;
+        margin-top: -240px;
+        right: 30%;
+    }
+    img{
+        width:100%;
+        margin: 0 auto;
+        padding: 0;
+        /*position: absolute;*/
+    }
+}
+/*电脑*/
+@media  (min-width:1200px){
+    .img .img-login-box{
+        width:360px;
+        position: absolute;
+        top:50%;
+        margin-top:-210px;
+        right: 10%;
+    }
+    img{
+        width:85%;
+        margin: 0 auto;
+        padding: 0;
+        /*position: absolute;*/
+    }
+}
+.user-h{
+    font-size:0px;
+}
+.user-h input{
+    font-size:14px ;
+}
+.user-h .login-btn{
+    line-height: 40px;
+    text-align: center;
+    background-color: #fd6500;
+    padding: 0;
+    width: 80px;
+    vertical-align: middle;
+    font-size:14px ;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+}
+
+

@@ -1,0 +1,4 @@
+部署的服务器是Apache服务器的时候修改httpd-conf文件，添加apache.txt中的配置到服务器中.
+部署的服务器是nginx服务器的时候修改nginx-conf文件，添加nginx.txt中的配置到服务器中.
+不包含DS结算系统外置商城手机Wap版的请删除掉Shop目录的Mobi目录
+不包含DS结算系统的手机Wap版的请删除掉DS/Wap目录下的Mobi目录

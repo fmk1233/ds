@@ -1,0 +1,48 @@
+location ~ \.(htaccess|txt|doc) {
+  deny  all;
+  return 403;
+}
+location ~ /Config/ {
+  deny all;
+  return 403;
+}
+location ~ /Common/ {
+  deny all;
+  return 403;
+}
+location ~ /Data/ {
+  deny all;
+  return 403;
+}
+location ~ /Api/ {
+  deny all;
+  return 403;
+}
+location ~ /View/ {
+  deny all;
+  return 403;
+}
+location ~ /Domain/ {
+  deny all;
+  return 403;
+}
+location ~ /Model/ {
+  deny all;
+  return 403;
+}
+location ~ /Language/ {
+  deny all;
+  return 403;
+}
+location ~ /PhalApi/ {
+  deny all;
+  return 403;
+}
+location ~ /Runtime/ {
+  deny all;
+  return 403;
+}
+location ~ /Library/ {
+  deny all;
+  return 403;
+}

@@ -1,0 +1,48 @@
+<Location ~ /Config/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Location ~ /View/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Location ~ /Domain/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Location ~ /Model/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Location ~ /Language/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Location ~ /Common/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Location ~ /Data/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Location ~ /Api/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Location ~ /Runtime/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Location ~ /PhalApi/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Location ~ /Library/>
+   Order allow,deny
+   Deny from all
+</Location>
+<Files ~ "\.(txt|doc|htaccess)">
+    Order allow,deny
+    Deny from all
+</Files>

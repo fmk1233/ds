@@ -1,0 +1,362 @@
+/*头部颜色*/
+#topMenu{
+    background: #113468;
+}
+/*整体背景色*/
+#page-wrapper{
+    background: #205aa8;
+    min-height:949px;
+    /*background: transparent;height: auto;*/
+}
+.top-navigation .navbar{
+    border-bottom: 0;
+}
+
+/*内容框头部颜色*/
+.ibox-title,.contact-box .contact-dt,.tabs-container .data-box,.contact-box2 .contact-dt,.txbg-white .tx-bdt{
+    background:#01b3bf;color: #fff;
+}
+/*内容框主体颜色*/
+.ibox-content,.grmsg-top,.bgc-oblack,.contact-box2{
+    background: #245290;
+    color: #fff;
+}
+/*内容边框颜色*/
+.ibox-content,.grmsg-top,.bgc-oblack,.contact-box2,.vertical-timeline-block .vertical-timeline-content{
+    border: 0;
+}
+
+.msg-box-mgb .ibox,.grmsg-bottom .ibox{
+    background: #245290;
+}
+.msg-box-mgb .ibox .ibox-content,.grmsg-bottom .ibox .ibox-content{
+    background: transparent;
+}
+
+.tabs-container .data-box{
+    border: 0;
+    /*border-bottom: 1px solid rgba(255,255,255,.2);*/
+}
+
+.list-group.clear-list .list-group-item{
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+
+.list-group.clear-list .list-group-item:first-child{
+    border-top: 0;
+}
+
+.ibox,.grmsg-bottom,.contact-box .contact-dt,.ibox-title{
+    border: 0;
+}
+
+.ibox-title{
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    background: #01b3bf;
+}
+
+.user-msgb-number, .user-msgb-name{
+    color: #fff!important;
+}
+.grmsg-bottom{
+    height: 140px;
+    background: transparent;
+    margin-top: 18px;
+}
+
+.data-box .active{
+    background: #3286f7;color: #fff;
+}
+
+.top-navigation .navbar-nav ul.dropdown-menu, .data-box li a{
+    color: #fff;
+}
+
+.news-cbox a:hover{
+    color: #fff;
+}
+.news-cbox a{
+    color: #e8e8e8;
+}
+.contact-box2 .contact-dt h3{
+    color: #fff;font-weight: normal;
+}
+
+/*头部文字*/
+#navbar .navbar-nav>li>a{
+    color: #ccc;
+}
+#navbar .navbar-nav>li>a:focus, #navbar .navbar-nav>li>a:hover{
+    background-color: #ec870e!important;
+    color: #fff;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    color: #fff!important;
+}
+.top-navigation .navbar-nav ul.dropdown-menu{
+    background: #113164!important;border: 0;
+}
+.top-navigation .navbar-nav .open .dropdown-menu>li>a:hover{
+    color: #fff;
+    background: #ec870e!important;
+}
+.top-navigation .dropdown-menu>li>a{
+    color: #ccc;
+}
+/*.form-control, .single-line{*/
+/*border: 1px solid #505765;*/
+/*color: #fff;*/
+/*}*/
+/*查看资料*/
+
+/*.vertical-timeline-block .vertical-timeline-content{*/
+/*border-top: 1px solid #2f3541;*/
+/*}*/
+
+body{
+    background: linear-gradient(to bottom, #7aaeea 0%,#152947 100%);
+}
+.footer{
+    background: rgba(255,255,255,.1)!important;
+    border: 0!important;
+    color: #fff!important;
+}
+
+.safety-box .txt .text-no{
+    color: #fa9778!important;
+}
+.safety-btn .btn-danger,.safety-list .btn-danger{
+    background: #fa9778;
+    border-color: #fa9778;
+}
+
+/*.linear-gradient .bootstrap-table{*/
+/*color: #fff!important;*/
+/*}*/
+/*.laydate-icon, .laydate-icon-default, .laydate-icon-danlan, .laydate-icon-dahong, .laydate-icon-molv{*/
+/*background: #2f3541!important;border: 0!important;*/
+/*color: #fff;*/
+/*}*/
+/*.table>tbody>tr>td{*/
+/*border-top:1px solid #505765;*/
+/*}*/
+
+/*.fixed-table-container tbody td{*/
+/*border-left: 1px solid #505765!important;*/
+/*}*/
+/*.fixed-table-container tbody td:first-child{*/
+/*border-left: 0!important;*/
+/*}*/
+.fixed-table-container tbody tr:first-child td{
+    /*border-top: 1px solid red!important;*/
+}
+.alert-info{
+    background: #01c0c8;
+    border-color: #01c0c8;
+    color: #fff;
+}
+.node_name span{
+    border: 0!important;
+}
+.ztree li a{
+    color: #999!important;
+}
+.Topology-table td{
+    color: #666;
+}
+
+.fixed-table-pagination .pagination a,.pagination-detail .btn-group button{
+    color: #666;
+}
+/*.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th{*/
+/*background: #353b47;*/
+/*border:0;*/
+/*}*/
+/*.fixed-table-body table{*/
+/*border: 0;*/
+/*}*/
+/*.fixed-table-body table tbody tr td:last-child{*/
+/*border-right: 0;*/
+/*}*/
+/*.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{*/
+/*border: 1px solid #505765;*/
+/*}*/
+.l-tc .btn-o-black{
+    border-radius: 4px;
+}
+.grey-bg .font-gary{
+    color: #999;
+}
+
+.collapse-link span:hover{
+    color:#fff
+}
+
+.shop-car-box .btn-white{
+    color: #666;
+}
+.shop-car-box .btn-white:hover{
+    color: #666;
+}
+.form-control{
+    color: #ccc;
+}
+.fixed-table-toolbar .columns label{
+    color: #333;
+}
+.czjl{
+    color: #fff;
+}
+
+.ibox-content .no-margins i{
+    color: #fff;
+}
+
+.ibox-tools a{
+    color: #e8e8e8;
+}
+
+.top-nav .navbar-vertical-top .navbar-header a{
+    color: #fff;
+}
+
+.mation-box,.vertical-timeline-content,.table-boxs-1 .no-margins{
+    background: #245290!important;
+    border: 0!important;
+    color: #fff!important;
+}
+
+.mation-box-1{
+    background: none!important;
+}
+
+.ny-top,.breadcrumb>li+li:before{
+    color: #fff;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+    background: transparent;
+    border: 1px solid rgba(255,255,255,.2);
+    color: #fff;
+}
+
+.form-control:focus, .single-line:focus{
+    border-color: rgba(255,255,255,.5)!important;
+}
+
+.float-e-margins .form-actions .btn:last-child{
+    background: rgba(255,255,255,.2);
+    color: #333!important;
+}
+.float-e-margins .form-actions .btn:last-child:hover{
+    background: rgba(255,255,255,1);
+    color: #333;
+}
+
+.hr-line-dashed{
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+
+.table>tbody>tr>td{
+    border: 1px solid rgba(255,255,255,.2);
+    border-right: 0;
+    color: #fff;
+}
+
+.fixed-table-body thead th .th-inner,.linear-gradient .bootstrap-table{
+    color: #fff!important;
+}
+
+#qvalue{
+    background: #fff;
+}
+
+.well,.txbg-white,.col-sm-9 .txbg-white{
+    background: rgba(255,255,255,.2);border: 0;
+}
+.tx-bdt{
+    border-top: 0!important;
+    border-bottom:1px solid rgba(255,255,255,.2);
+}
+
+.form-inline .form-group .form-control{color: #ccc;}
+.table>thead:first-child>tr:first-child>th{
+    background: transparent;
+    border: 0;
+}
+.bootstrap-table .table{
+    border: 1px solid rgba(255,255,255,.2);
+}
+
+.ft-cor{
+    border: 1px solid rgba(255,255,255,.2);
+    color: #fff;
+}
+.ft-cor:hover{
+    color: #1ab394;
+    background-color: #fff;
+}
+.blue{
+    color: #1ab394!important;
+    background-color: #fff!important;
+}
+.btn-primary.btn-outline{
+    color: #fff;border: 1px solid rgba(255,255,255,.2);
+}
+.btn-primary.btn-outline:hover{
+    color: #1ab394;background-color: #fff;
+}
+
+.has-feedback .form-control{
+    background: transparent;
+    border: 1px solid rgba(255,255,255,.2);
+    color: #fff;
+}
+
+.has-success .control-label,.btn.focus, .btn:focus, .btn:hover{
+    color: #fff;
+}
+.has-error .control-label,.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label,.text-danger{
+    color: #fa9778;
+}
+
+.top-nav .navbar-vertical-top .navbar-right li a{
+    color: #fff;
+}
+.top-nav .navbar-vertical-top .navbar-right li a:hover{
+    color: #fff;
+}
+
+.ibox-content small{
+    color: #e8e8e8;
+}
+
+.data-box-cnt tbody tr:nth-of-type(even),.data-box-cnt tbody tr:nth-of-type(odd){
+    background: transparent!important;
+}
+
+.form-control, .single-line{
+    border: 1px solid rgba(255,255,255,.2);
+}
+
+.top-navigation .nav > li a:hover, .top-navigation .nav > li a:focus{
+    background: #dd9300!important;
+}
+.fixed-table-container tbody td{
+     border-left: 1px solid rgba(255,255,255,.2)!important;
+}
+
+.fixed-table-container tbody td:first-child {
+    border-left: 0!important;
+}
+.fixed-table-body table{
+    border: 0!important;
+}
+
+.has-feedback label~.form-control-feedback{
+    top: 30px;
+}
+
+.has-success .form-control-feedback{
+    color: #01b3bf;
+}

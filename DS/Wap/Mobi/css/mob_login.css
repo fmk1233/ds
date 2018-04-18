@@ -1,0 +1,67 @@
+#login{
+    background: linear-gradient(to bottom, #87a4d3 0%,#64bddb 50%,#164d90 100%);
+}
+
+#login .mui-scroll-wrapper,#login .mui-page-content,.mui-scroll{
+    background-color: transparent!important;
+}
+
+#login .mui-input-group{
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(10,68,133,.2);
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+}
+
+#login .mui-input-group:before,#login .mui-input-group:after,#login .mui-input-group .mui-input-row:after{
+    background: none!important;
+}
+#login .mui-input-clear{
+    border-bottom: 1px solid rgba(255,255,255,.4)!important;
+}
+#login .ui-login label i{
+    color: #fafafa;
+}
+#login .ui-btn-block{
+    width: 90%!important;
+    margin: 0 auto;
+    border-radius: 4px;
+    background: rgba(10,68,133,.5);
+    border: 0;
+}
+#login .mui-content-padded{
+    margin: 0;margin-top: 20px;
+}
+
+#login .ui-prompt h3{
+    color: #fff!important;
+}
+
+#login input:-moz-placeholder,
+#login textarea:-moz-placeholder {
+    color: #fff;
+}
+
+#login input:-ms-input-placeholder,
+#login textarea:-ms-input-placeholder {
+    color: #fff;
+}
+
+#login input::-webkit-input-placeholder,
+#login textarea::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#login .mui-input-row label~input,#login .mui-input-row label~select,#login .mui-input-row label~textarea{
+    font-size: 1rem;
+}
+
+#login .mui-scroll-wrapper{
+    top: 20px!important;
+}
+
+#login .mui-input-row .mui-input-clear~.mui-icon-clear, #login .mui-input-row .mui-input-password~.mui-icon-eye,#login .mui-input-row .mui-input-speech~.mui-icon-speech{
+    color: #fafafa;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../Public/static/css/xin.css">
+    <title>支付页面</title>
+    <style>
+        html,body{
+            margin: 0;padding: 0;
+        }
+        *{font-size: 12px;font-family:  "微软雅黑"}
+        ul,li{margin: 0;padding: 0;list-style: none}
+    </style>
+</head>
+<body style="background-color: #eff0f1;">
+<div class="pay-box">
+    <div class="pay-cp-msg">
+        <div class="l-ibox fl"><img src="../../../Public/static/img/cp1.JPG" alt="图片" width="100%"></div>
+        <div class="l-tbox fl">麻夕2017春装外套美式街头假两件连帽卫衣男日系原宿潮流拼色上衣</div>
+        <div class="l-mbox fr"><span>￥128.00</span>&nbsp;&nbsp;元</div>
+        <div class="clearfix"></div>
+        <div class="l-dd-detail">订单详情 </div>
+    </div>
+    <div class="choose-fs">
+        <ul class="ul-bank-box">
+            <li class="li-bank-box">
+                <div class="pay-bank-box current">
+                    <input type="radio" name="apiCode" checked>
+                    <label>
+                        <span class="fl pay-bank-name">微信支付</span>
+                        <span class="fr pay-bank-money">支付 <span>￥128.00</span> 元</span>
+                    </label>
+                </div>
+            </li>
+            <li class="li-bank-box">
+                <div class="pay-bank-box">
+                    <input type="radio" name="apiCode">
+                    <label>
+                        <span class="fl pay-bank-name">支付宝支付</span>
+                        <span class="fr pay-bank-money">支付 <span>￥128.00</span> 元</span>
+                    </label>
+                </div>
+            </li>
+            <li class="li-bank-box">
+                <div class="pay-bank-box">
+                    <input type="radio" name="apiCode">
+                    <label>
+                        <span class="fl pay-bank-name">其他支付</span>
+                        <span class="fr pay-bank-money">支付 <span>￥128.00</span> 元</span>
+                    </label>
+                </div>
+            </li>
+            <li class="li-bank-qt">
+                <div class="choose-box fl">其他付款方式</div>
+            </li>
+            <div class="clearfix"></div>
+        </ul>
+        <div class="zf-msg">
+            <div class="zf-title">请输入支付密码：</div>
+            <div class="zf-ipt">
+                <input type="text" placeholder="请输入6位数密码">
+                  忘记密码？
+            </div>
+             <div class="zf-btn">
+                 <button>确认付款</button>
+             </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+ .title-form{
+    margin-top: 25px;
+}
+ .title-action{
+     padding-top: 25px;
+ }
+ /* Payments */
+ .payment-card {
+     background: #ffffff;
+     padding: 20px;
+     margin-bottom: 25px;
+     border: 1px solid #e7eaec;
+ }
+ .payment-icon-big {
+     font-size: 60px;
+     color: #d1dade;
+ }
+ .payments-method.panel-group .panel + .panel {
+     margin-top: -1px;
+ }
+ .payments-method .panel-heading {
+     padding: 15px;
+ }
+ .payments-method .panel {
+     border-radius: 0;
+ }
+ .payments-method .panel-heading h5 {
+     margin-bottom: 5px;
+ }
+ .payments-method .panel-heading i {
+     font-size: 26px;
+ }
+ /* COLORS */
+ .text-navy {
+     color: #1ab394;
+ }
+ .text-primary {
+     color: inherit;
+ }
+ .text-success {
+     color: #1c84c6;
+ }
+ .text-info {
+     color: #23c6c8;
+ }
+ .text-warning {
+     color: #f8ac59;
+ }
+ .text-danger {
+     color: #ed5565;
+ }
+ .text-muted {
+     color: #888888;
+ }
+ .text-white {
+     color: #ffffff;
+ }
+ .simple_tag {
+     background-color: #f3f3f4;
+     border: 1px solid #e7eaec;
+     border-radius: 2px;
+     color: inherit;
+     font-size: 10px;
+     margin-right: 5px;
+     margin-top: 5px;
+     padding: 5px 12px;
+     display: inline-block;
+ }

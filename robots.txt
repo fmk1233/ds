@@ -1,0 +1,10 @@
+User-agent: *
+Disallow:
+Disallow: /Admin/
+Disallow: /Config/
+Disallow: /Data/
+Disallow: /Library/
+Disallow: /PhalApi/
+Disallow: /Runtime/
+Disallow: /Language/
+Disallow: /Public/
